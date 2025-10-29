@@ -1,2 +1,2 @@
-# PYTHON-PROJECT
+# PYTHON-PROJECTS
 Basic beginner-friendly projects
