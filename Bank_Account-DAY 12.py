@@ -3,7 +3,7 @@ class Bank_Account:
         global balance
         name =input('Enter your name: ').capitalize().strip()
         while not name:
-          print("❌ Name cannot be empty!")
+          print("Name cannot be empty!")
           name =input('Enter your name: ').capitalize().strip()
           continue
         try:
@@ -44,4 +44,5 @@ class Bank_Account:
 account1=Bank_Account()
 account1.owner_details()
 account1.deposit()
+
 account1.withdraw()
